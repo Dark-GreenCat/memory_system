@@ -1,11 +1,11 @@
 {
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
-    "xci_name": "memory_system_axi_traffic_gen_0_axi_periph_2",
+    "xci_name": "memory_system_traffic_gen_axi_periph_0",
     "cell_name": "traffic_gen_axi_periph",
     "component_reference": "xilinx.com:ip:axi_interconnect:2.1",
     "ip_revision": "32",
-    "gen_directory": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_axi_traffic_gen_0_axi_periph_2",
+    "gen_directory": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_traffic_gen_axi_periph_0",
     "parameters": {
       "component_parameters": {
         "NUM_SI": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
@@ -322,7 +322,7 @@
         "S13_ARB_PRIORITY": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "S14_ARB_PRIORITY": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "S15_ARB_PRIORITY": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "Component_Name": [ { "value": "memory_system_axi_traffic_gen_0_axi_periph_2", "resolve_type": "user", "usage": "all" } ]
+        "Component_Name": [ { "value": "memory_system_traffic_gen_axi_periph_0", "resolve_type": "user", "usage": "all" } ]
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "virtexuplus" } ],
@@ -342,7 +342,7 @@
         "IPCONTEXT": [ { "value": "IP_Integrator_AppCore" } ],
         "IPREVISION": [ { "value": "32" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_axi_traffic_gen_0_axi_periph_2" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_traffic_gen_axi_periph_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
         "SWVERSION": [ { "value": "2024.1" } ],

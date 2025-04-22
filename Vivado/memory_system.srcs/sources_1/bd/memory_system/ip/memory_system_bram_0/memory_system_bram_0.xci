@@ -1,14 +1,14 @@
 {
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
-    "xci_name": "memory_system_blk_mem_gen_0_0",
+    "xci_name": "memory_system_bram_0",
     "cell_name": "bram",
     "component_reference": "xilinx.com:ip:blk_mem_gen:8.4",
     "ip_revision": "8",
-    "gen_directory": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_blk_mem_gen_0_0",
+    "gen_directory": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_bram_0",
     "parameters": {
       "component_parameters": {
-        "Component_Name": [ { "value": "memory_system_blk_mem_gen_0_0", "resolve_type": "user", "usage": "all" } ],
+        "Component_Name": [ { "value": "memory_system_bram_0", "resolve_type": "user", "usage": "all" } ],
         "Interface_Type": [ { "value": "Native", "resolve_type": "user", "usage": "all" } ],
         "AXI_Type": [ { "value": "AXI4_Full", "resolve_type": "user", "usage": "all" } ],
         "AXI_Slave_Type": [ { "value": "Memory_Slave", "resolve_type": "user", "usage": "all" } ],
@@ -52,7 +52,7 @@
         "register_portb_output_of_softecc": [ { "value": "false", "resolve_type": "user", "format": "bool", "enabled": false, "usage": "all" } ],
         "Pipeline_Stages": [ { "value": "0", "resolve_type": "user", "enabled": false, "usage": "all" } ],
         "Load_Init_File": [ { "value": "true", "value_src": "user", "resolve_type": "user", "format": "bool", "usage": "all" } ],
-        "Coe_File": [ { "value": "../../../../../ram_init.coe", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
+        "Coe_File": [ { "value": "../../../../../../../memory_system.srcs/ram_init.coe", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "Fill_Remaining_Memory_Locations": [ { "value": "true", "value_src": "user", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "Remaining_Memory_Locations": [ { "value": "deadbeef", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "Use_RSTA_Pin": [ { "value": "true", "resolve_type": "user", "format": "bool", "usage": "all" } ],
@@ -98,7 +98,7 @@
         "C_ALGORITHM": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_PRIM_TYPE": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_LOAD_INIT_FILE": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_INIT_FILE_NAME": [ { "value": "memory_system_blk_mem_gen_0_0.mif", "resolve_type": "generated", "usage": "all" } ],
+        "C_INIT_FILE_NAME": [ { "value": "memory_system_bram_0.mif", "resolve_type": "generated", "usage": "all" } ],
         "C_INIT_FILE": [ { "value": "NONE", "resolve_type": "generated", "usage": "all" } ],
         "C_USE_DEFAULT_DATA": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_DEFAULT_DATA": [ { "value": "deadbeef", "resolve_type": "generated", "usage": "all" } ],
@@ -176,7 +176,7 @@
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
         "IPREVISION": [ { "value": "8" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_blk_mem_gen_0_0" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_bram_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
         "SWVERSION": [ { "value": "2024.1" } ],
@@ -225,11 +225,11 @@
           "parameters": {
             "MEM_ADDRESS_MODE": [ { "value": "BYTE_ADDRESS", "value_permission": "bd", "resolve_type": "user", "usage": "all" } ],
             "MEM_SIZE": [ { "value": "8192", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
-            "MEM_WIDTH": [ { "value": "1024", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "MEM_WIDTH": [ { "value": "32", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
             "MEM_ECC": [ { "value": "NONE", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "MASTER_TYPE": [ { "value": "OTHER", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "READ_WRITE_MODE": [ { "value": "READ_WRITE", "value_src": "propagated", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
-            "READ_LATENCY": [ { "value": "2", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ]
+            "READ_LATENCY": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ]
           },
           "port_maps": {
             "ADDR": [ { "physical_name": "addra" } ],

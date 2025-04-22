@@ -453,7 +453,7 @@
           "mode": "slave",
           "memory_map_ref": "C0_DDR4_MEMORY_MAP_CTRL",
           "parameters": {
-            "FREQ_HZ": [ { "value": "300000000", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "3e+08", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
             "DATA_WIDTH": [ { "value": "32", "value_src": "auto", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_ips_inferred": true, "is_static_object": false } ],
             "PROTOCOL": [ { "value": "AXI4LITE", "value_src": "constant", "resolve_type": "generated", "usage": "simulation.tlm", "is_ips_inferred": true, "is_static_object": false } ],
             "ID_WIDTH": [ { "value": "0", "value_src": "constant", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_ips_inferred": true, "is_static_object": false } ],
@@ -510,7 +510,7 @@
           "mode": "slave",
           "memory_map_ref": "C0_DDR4_MEMORY_MAP",
           "parameters": {
-            "FREQ_HZ": [ { "value": "300000000", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "3e+08", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
             "DATA_WIDTH": [ { "value": "512", "value_src": "auto", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_ips_inferred": true, "is_static_object": false } ],
             "PROTOCOL": [ { "value": "AXI4", "value_src": "auto", "resolve_type": "generated", "usage": "simulation.tlm", "is_ips_inferred": true, "is_static_object": false } ],
             "ID_WIDTH": [ { "value": "1", "value_src": "propagated", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_ips_inferred": true, "is_static_object": false } ],
@@ -611,7 +611,7 @@
           "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
           "mode": "master",
           "parameters": {
-            "FREQ_HZ": [ { "value": "300000000", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "3e+08", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
             "PHASE": [ { "value": "0.00", "value_src": "constant", "value_permission": "bd", "format": "float", "usage": "all" } ],
             "ASSOCIATED_BUSIF": [ { "value": "C0_DDR4_S_AXI:C0_DDR4_S_AXI_CTRL", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
             "ASSOCIATED_RESET": [ { "value": "c0_ddr4_aresetn:c0_ddr4_ui_clk_sync_rst", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
@@ -629,7 +629,7 @@
           "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
           "mode": "master",
           "parameters": {
-            "FREQ_HZ": [ { "value": "100000000", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "1e+08", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "all" } ],
             "PHASE": [ { "value": "0", "value_permission": "bd", "resolve_type": "dependent", "format": "float", "usage": "all" } ],
             "ASSOCIATED_ASYNC_RESET": [ { "value": "c0_aresetn", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
             "FREQ_TOLERANCE_HZ": [ { "value": "0", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],

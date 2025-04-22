@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.783337",
-   "Default View_TopLeft":"-148,-157",
+   "Default View_ScaleFactor":"0.467085",
+   "Default View_TopLeft":"-212,-308",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
 #  -string -flagsOSRD
@@ -23,10 +23,10 @@ preplace netloc axi_bram_ctrl_bram_rst_a 1 6 1 N 250
 preplace netloc axi_bram_ctrl_bram_we_a 1 6 1 N 270
 preplace netloc axi_bram_ctrl_bram_wrdata_a 1 6 1 N 190
 preplace netloc bram_douta 1 6 1 N 210
+preplace netloc clk_wiz_clk_out2 1 0 8 20 90 390 20 700 20 1040 80 1360 80 1660 70 2010 330 NJ
 preplace netloc clk_wiz_locked 1 0 7 10 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 2000
 preplace netloc resetn_1 1 0 1 NJ 170
 preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 1 5 390 180 690 260 1040 260 1360 260 1640J
-preplace netloc clk_wiz_clk_out2 1 0 8 20 90 390 20 700 20 1040 80 1360 80 1660 70 2010 330 NJ
 preplace netloc axi_cdma_0_M_AXI 1 4 1 N 160
 preplace netloc axi_smc_M00_AXI 1 5 1 N 180
 preplace netloc axi_traffic_gen_0_M_AXI_LITE_CH1 1 2 1 N 80
@@ -36,8 +36,4 @@ levelinfo -pg 1 -10 200 540 850 1180 1500 1830 2120 2250
 pagesize -pg 1 -db -bbox -sgen -220 0 2440 1080
 "
 }
-{
-   "da_axi4_cnt":"7",
-   "da_board_cnt":"7",
-   "da_bram_cntlr_cnt":"6"
-}
+

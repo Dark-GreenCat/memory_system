@@ -1,14 +1,14 @@
 {
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
-    "xci_name": "memory_system_axi_smc_2",
+    "xci_name": "memory_system_axi_smc_0",
     "cell_name": "axi_smc",
     "component_reference": "xilinx.com:ip:smartconnect:1.0",
     "ip_revision": "23",
-    "gen_directory": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_axi_smc_2",
+    "gen_directory": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_axi_smc_0",
     "parameters": {
       "component_parameters": {
-        "Component_Name": [ { "value": "memory_system_axi_smc_2", "resolve_type": "user", "usage": "all" } ],
+        "Component_Name": [ { "value": "memory_system_axi_smc_0", "resolve_type": "user", "usage": "all" } ],
         "NUM_MI": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "NUM_SI": [ { "value": "1", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "NUM_CLKS": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
@@ -16,7 +16,7 @@
         "ADVANCED_PROPERTIES": [ { "value": "0", "resolve_type": "user", "usage": "all" } ]
       },
       "model_parameters": {
-        "TLM_COMPONENT_NAME": [ { "value": "memory_system_axi_smc_2", "resolve_type": "generated", "usage": "simulation.tlm" } ],
+        "TLM_COMPONENT_NAME": [ { "value": "memory_system_axi_smc_0", "resolve_type": "generated", "usage": "simulation.tlm" } ],
         "HAS_RESET": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm" } ]
       },
       "project_parameters": {
@@ -37,7 +37,7 @@
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
         "IPREVISION": [ { "value": "23" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_axi_smc_2" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../memory_system.gen/sources_1/bd/memory_system/ip/memory_system_axi_smc_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
         "SWVERSION": [ { "value": "2024.1" } ],
@@ -124,7 +124,7 @@
             "FREQ_HZ": [ { "value": "300000000", "value_src": "ip_propagated", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_static_object": false } ],
             "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_static_object": false } ],
             "PHASE": [ { "value": "0.0", "value_src": "ip_propagated", "value_permission": "bd", "resolve_type": "generated", "format": "float", "is_static_object": false } ],
-            "CLK_DOMAIN": [ { "value": "memory_system_clk_wiz_2_clk_out1", "value_src": "default_prop", "value_permission": "bd", "resolve_type": "generated", "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "memory_system_clk_wiz_0_clk_out1", "value_src": "default_prop", "value_permission": "bd", "resolve_type": "generated", "is_static_object": false } ],
             "ASSOCIATED_BUSIF": [ { "value": "M00_AXI:S00_AXI", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "is_static_object": false } ],
             "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_static_object": false } ],
             "ASSOCIATED_RESET": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_static_object": false } ],
@@ -177,7 +177,7 @@
             "NUM_WRITE_OUTSTANDING": [ { "value": "2", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "MAX_BURST_LENGTH": [ { "value": "32", "value_src": "user_prop", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "PHASE": [ { "value": "0.0", "value_src": "ip_propagated", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "simulation.tlm", "is_static_object": false } ],
-            "CLK_DOMAIN": [ { "value": "memory_system_clk_wiz_2_clk_out1", "value_src": "default_prop", "value_permission": "bd", "resolve_type": "generated", "usage": "simulation.tlm", "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "memory_system_clk_wiz_0_clk_out1", "value_src": "default_prop", "value_permission": "bd", "resolve_type": "generated", "usage": "simulation.tlm", "is_static_object": false } ],
             "NUM_READ_THREADS": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "NUM_WRITE_THREADS": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "RUSER_BITS_PER_BYTE": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
@@ -250,7 +250,7 @@
             "NUM_WRITE_OUTSTANDING": [ { "value": "2", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "MAX_BURST_LENGTH": [ { "value": "16", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "PHASE": [ { "value": "0.0", "value_src": "ip_propagated", "value_permission": "bd", "resolve_type": "generated", "format": "float", "usage": "simulation.tlm", "is_static_object": false } ],
-            "CLK_DOMAIN": [ { "value": "memory_system_clk_wiz_2_clk_out1", "value_src": "default_prop", "value_permission": "bd", "resolve_type": "generated", "usage": "simulation.tlm", "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "memory_system_clk_wiz_0_clk_out1", "value_src": "default_prop", "value_permission": "bd", "resolve_type": "generated", "usage": "simulation.tlm", "is_static_object": false } ],
             "NUM_READ_THREADS": [ { "value": "1", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "NUM_WRITE_THREADS": [ { "value": "1", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],
             "RUSER_BITS_PER_BYTE": [ { "value": "0", "value_src": "user", "value_permission": "bd", "resolve_type": "generated", "format": "long", "usage": "simulation.tlm", "is_static_object": false } ],

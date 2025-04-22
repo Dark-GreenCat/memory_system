@@ -56,7 +56,11 @@ To export the Vivado project for sharing or version control, follow these steps 
 1. **Generate the Initial `build.tcl`**
    - In Vivado, open your project.
    - Go to **File > Project > Write Project Tcl**.
-   - Save the file as `build.tcl` in the `Vivado` directory.
+   - Save the file as `build.tcl` in the `Vivado/memory_system` directory. (not in the old `Vivado` directory)
+   - Execute commands:
+     ```bash
+     cp Vivado/memory_system/build.tcl Vivado
+     ```
 
 2. **Modify `build.tcl`**
    - Open `build.tcl` in a text editor.
@@ -81,8 +85,10 @@ To export the Vivado project for sharing or version control, follow these steps 
 3. **Copy Source Files**
    - Copy the `memory_system.srcs` directory from `Vivado/memory_system/memory_system.srcs` to `Vivado/`.
       ```bash
+     cp Vivado/memory_system.srcs/*.coe Vivado
      rm -rf Vivado/memory_system.srcs
      cp -r Vivado/memory_system/memory_system.srcs Vivado
+     mv Vivado/*.coe Vivado/memory_system.srcs
      ```
    - Verify that all source files, including the `.coe` file, are included in the copied directory.
    - To export simulated .vcd file:
